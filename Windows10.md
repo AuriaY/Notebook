@@ -30,6 +30,8 @@
 
 `win键+R—打开”运行“`—（calc计算器，notepad记事本，cmd，control控制面板）/`直接按win键，然后输入就行了`
 
+`Ctrl+Shift+Esc`— 打开任务管理器
+
 ## 环境变量
 
 > **系统变量**：对所有用户有效，切换用户仍可以使用
@@ -45,4 +47,64 @@
 2. 此电脑—属性—高级系统设置—环境变量（最下面）
 
    可以设置`用户变量`和`系统变量`
+   
+## 系统分盘
 
+分4~5个盘（包含C盘）
+
+- 尽量少往桌面放东西，因为属于C盘
+- 一个盘装软件（software），里面每一个文件都单独创建一个文件夹再安装（如果安装的软件不自己新建好，就要手动新建）
+
+    “在已有基础上添加 `\文件名` “
+
+    有软件的文件路径都用英文写，单词间用下划线链接
+
+- 一个盘叫Project，装程序项目里面的分类按语言分分类，如C，Java，python）
+
+    （文件夹developTools开发工具，可以写缩写dev)可以放VS2019...之类的
+
+- File盘放文件（比如video，Download，Photos，study）
+
+## 软件
+
+最好在官网下载，如果不是在官网下载的，要注意**安装包的大小**
+
+**捆绑软件**，看文件大小，如果特别小（不符合应该的大小范围），有可能是捆绑软件
+
+安装软件的时候多点一点设置/高级设置，看仔细一点w
+
+任务管理器—启动，里面设置**开机自启**，可以禁用
+
+### 推荐软件
+
+Rime，Windows自带(输入法）
+
+PotPlayer（视频播放器）
+
+ccleaner（清理垃圾）
+
+geek（卸载工具)
+
+Fast Stone Capture（截图）
+
+Snipaste（截图）
+
+Teamviewer（远程控制软件）
+
+Honeyview(看图）
+
+## 修改hosts文件
+
+注意用户权限
+
+路径：C:\WINDOWS\system32\drivers\etc
+
+刷新（cmd)：ipconfig /flushdns
+
+Dns查询：[http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
+
+可以在cmd里面ping一下网页
+
+```bash
+ping notion.so
+```
