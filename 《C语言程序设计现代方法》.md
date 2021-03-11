@@ -65,8 +65,8 @@ scanf("%d",&age);
 #include <stdio.h>
 int main(void)
 {
-	printf("aaa今天先到这里，我明天回来再整理w，先睡觉了呐，晚安");
-	return 0
+  printf("aaa今天先到这里，我明天回来再整理w，先睡觉了呐，晚安");
+  return 0
 }
 ```
 
