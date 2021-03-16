@@ -29,6 +29,7 @@ print("%d\\n",height * length * width);
 #define NAME_SECOND (123/123)
 //在后面就可以用这个名字（NAME）代替常量/表达式了,可以开大写锁定
 //宏定义，名字只用大写字母,包含运算符时要用括号
+//写在main函数的前面
 ```
 
 - **读入输出**
@@ -71,3 +72,4 @@ int main(void)
 ```
 
 如果第二行（main函数）不是在前面写int 可以不用return0
+`\n`反斜杠才是换行
